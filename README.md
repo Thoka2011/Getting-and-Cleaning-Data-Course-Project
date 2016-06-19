@@ -30,17 +30,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##The output data would be as this table:
 
-| Variable name | Features.txt  | Subject  |Activity |
-| ------------- |:-------------:| :-------:|--------:|
-| Data          | X_train.txt   | $1600    |         |
-| Data          | X_test.txt    |   $12    |         |
+| Variable name | Features.txt  | Subject           |Activity       |
+| ------------- |:-------------:| :----------------:|--------------:|
+| Data          | X_train.txt   | Subject_train.txt | Y_train.txt   |
+| Data          | X_test.txt    | Subject_test.txt  | Y_test.txt    |
 
 
-
-Variable name     | Features.txt | Subject | Activity
--------- | ---
-Data | X_train.txt|Subject_train.txt |Y_train.txt
-Data     |X_test.txt        |Subject_test.txt     |Y_test.txt
 
 
 
