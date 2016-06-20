@@ -9,16 +9,18 @@
 	XTest:			 test/X_test.txt
 	activityTest:	 	test/y_test.txt
 	featuresName:            features.txt
-	ActivityLabels    	activity_labels.txt
+	ActivityLabels:    	activity_labels.txt
+	
+	
 
-subjectData : 		combine of subjectTrain,subjectTest
-ActivityData:		combine of activityTrain,activityTest
-XData: 		combine of XTrain,XTest
-MergedData: 		combine of subjectData, ActivityData
-Data: 			combine of XData, MergedData
-Vector: 		logicalVector indicate TRUE For Activity , subject mean and standard deviation columns
-DataExtracted: 	the data set which include (Activity, subject, mean and standard deviation 
-tidyData: 		the final data set
+	subjectData : 		combine of subjectTrain,subjectTest
+	ActivityData:		combine of activityTrain,activityTest
+	XData: 			combine of XTrain,XTest
+	MergedData: 		combine of subjectData, ActivityData
+	Data: 			combine of XData, MergedData
+	Vector: 		logicalVector indicate TRUE For Activity , subject mean and standard deviation columns
+	DataExtracted: 		the data set which include (Activity, subject, mean and standard deviation 
+	tidyData: 		the final data set
 
 
 ## The data in the output file tidy data is as described:
