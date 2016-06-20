@@ -24,7 +24,9 @@
 
 
 ## The data in the output file tidy data is as described:
+
 subject : 		The person who was wearing a smartphone (Samsung Galaxy S II) on the waist to get his measurements.
+
 activity : 		The kind of activity the person was doing while getting the measurement.
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
