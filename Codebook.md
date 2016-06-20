@@ -1,5 +1,7 @@
+## The variables
+### The variables in the left is the load of the files in the right:
 
-The variable in the left is the load of the files in the right:
+
 	subjectTrain :   	 train/subject_train.txt
 	XTrain 	:   		  train/X_train.txt
 	activityTrain:   		train/y_train.txt
@@ -19,12 +21,12 @@ DataExtracted: 	the data set which include (Activity, subject, mean and standard
 tidyData: 		the final data set
 
 
-The data in the output file tidy data is as described:
+## The data in the output file tidy data is as described:
 subject : 		The person who was wearing a smartphone (Samsung Galaxy S II) on the waist to get his measurements.
 activity : 		The kind of activity the person was doing while getting the measurement.
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-The required measurement :
+### The required measurement :
 "timeBodyAccelerometer-mean()-X"
 "timeBodyAccelerometer-mean()-Y"
 "timeBodyAccelerometer-mean()-Z"
