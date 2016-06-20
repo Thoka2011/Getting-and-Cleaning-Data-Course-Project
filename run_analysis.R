@@ -118,6 +118,6 @@ names(DataExtracted)<-gsub("BodyBody", "Body", names(DataExtracted))
 
 install.packages("plyr")
 library(plyr)
-tidyData<-aggregate(. ~subject + Activity, DataExtracted, mean)
+tidyData<-aggregate(. ~subject + activity, DataExtracted, mean)
 
 write.table(tidyData, file = "./tidydata.txt",row.name=FALSE)
